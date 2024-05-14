@@ -186,7 +186,7 @@ local commands = {
     ['l'] = function() robot.useDown(sides.bottom, true) end,
 
     --======команды 0-9=================
-    -- ВЫБРОСИТЬ ВСЕ и выбрать 1-й слот
+    -- ВЫБРОСИТЬ ВСЁ и выбрать 1-й слот
     ['1'] = function()
         for i = 1, INVSIZE do
             if robot.count(i) > 0 then
